@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "452317231452",
+    "firebase_url": "https://cronometro-3e1e3-default-rtdb.firebaseio.com",
+    "project_id": "cronometro-3e1e3",
+    "storage_bucket": "cronometro-3e1e3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452317231452:android:470b0a4662d88fcebb6999",
+        "android_client_info": {
+          "package_name": "com.example.ask"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsCd-WSWKivXaEn0Fe4pZNCIpfTB-YNCg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452317231452:android:0aa7a6e7348d34a5bb6999",
+        "android_client_info": {
+          "package_name": "com.example.cronometro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsCd-WSWKivXaEn0Fe4pZNCIpfTB-YNCg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

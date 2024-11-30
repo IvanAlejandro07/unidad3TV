@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#2C3E50">
+
+    <TextView
+        android:id="@+id/question_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-medium"
+        android:paddingBottom="5dp"
+        android:text="Pregunta"
+        android:textColor="@android:color/white"
+        android:textSize="8sp" />
+
+    <Button
+        android:id="@+id/answer_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question_text"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="1dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="1dp"
+        android:backgroundTint="#3498DB"
+        android:fontFamily="sans-serif"
+        android:padding="1dp"
+        android:text="Respuesta 1"
+        android:textColor="@android:color/white"
+        android:textSize="7sp" />
+
+    <Button
+        android:id="@+id/answer_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/answer_button1"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="1dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="1dp"
+        android:backgroundTint="#3498DB"
+        android:fontFamily="sans-serif"
+        android:padding="1dp"
+        android:text="Respuesta 2"
+        android:textColor="@android:color/white"
+        android:textSize="7sp" />
+
+    <Button
+        android:id="@+id/answer_button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/answer_button2"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="1dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="1dp"
+        android:backgroundTint="#3498DB"
+        android:fontFamily="sans-serif"
+        android:padding="1dp"
+        android:text="Respuesta 3"
+        android:textColor="@android:color/white"
+        android:textSize="7sp" />
+
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/answer_button3"
+        android:layout_marginTop="1dp"
+        android:layout_centerHorizontal="true"
+        android:text="Resultado"
+        android:textSize="9sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-light"/>
+
+    <Button
+        android:id="@+id/restart_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/result_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#E74C3C"
+        android:fontFamily="sans-serif-medium"
+        android:text="Reiniciar Juego"
+        android:textColor="@android:color/white"
+        android:textSize="9sp"
+        android:visibility="gone"/>
+</RelativeLayout>
